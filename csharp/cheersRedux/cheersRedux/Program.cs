@@ -5,17 +5,9 @@ using System.IO;
 
 namespace cheersRedux
 {
-	class MainClass
-	{
-		public static void Main (string[] args)
-		{
-			Console.WriteLine ("Hello World!");
-		}
-	}
-
 	class cheersClass 
 	{
-		public static void Main() 
+		public static void Main(string[] args) 
 		{
 			string line; 
 			Console.WriteLine ("What is your name?");
@@ -23,18 +15,17 @@ namespace cheersRedux
 
 			char[] nameArray = new char[UserName.Length];
 
-			using (StringReader intoNameArray = new StringReader (UserName)) 
-			{
-				for (int i = 0; i < UserName.Length; i++) 
+		   	for (int i = 0; i < nameArray.length; i++) 
+		   	{
+				if (i == "a" || "e" || "o" || "i" || "u") 
 				{
-					if (UserName[i] == 'a' || 'e' || 'o' || 'i '||'u') {
-						Console.WriteLine('Give me an...' UserName[i])
-					} else {
-						Console.WriteLine('Give me a...' UserName[i])
-					};
+					Console.WriteLine("Give me an...{0}", i);
+				} 
+				else 
+				{
+					Console.WriteLine("Give me a...{0}", i);
 				}
 			}
 		}
-
 	}
 }
