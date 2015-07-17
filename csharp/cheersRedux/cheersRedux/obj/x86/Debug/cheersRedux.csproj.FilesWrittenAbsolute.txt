@@ -1,0 +1,1 @@
+/Users/Rainu/nss2/jcockhrencode/cheers/csharp/cheersRedux/cheersRedux/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
