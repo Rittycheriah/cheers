@@ -30,7 +30,7 @@ namespace cheersRedux
 
 			foreach (char i in UserName)
 		   	{
-				if ("aeiou".Contains(i)) 
+				if ("halfnorsemix".Contains(i)) 
 				{
 					Console.WriteLine("Give me an...{0}", i);
 				} 
