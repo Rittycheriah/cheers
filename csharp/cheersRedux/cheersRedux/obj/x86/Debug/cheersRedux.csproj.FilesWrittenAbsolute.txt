@@ -1,1 +1,5 @@
 /Users/Rainu/nss2/jcockhrencode/cheers/csharp/cheersRedux/cheersRedux/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Rainu/nss2/jcockhrencode/cheers/csharp/cheersRedux/cheersRedux/bin/Debug/cheersRedux.exe.mdb
+/Users/Rainu/nss2/jcockhrencode/cheers/csharp/cheersRedux/cheersRedux/bin/Debug/cheersRedux.exe
+/Users/Rainu/nss2/jcockhrencode/cheers/csharp/cheersRedux/cheersRedux/obj/x86/Debug/cheersRedux.exe
+/Users/Rainu/nss2/jcockhrencode/cheers/csharp/cheersRedux/cheersRedux/obj/x86/Debug/cheersRedux.exe.mdb
