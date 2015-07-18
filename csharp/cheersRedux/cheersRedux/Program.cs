@@ -13,6 +13,21 @@ namespace cheersRedux
 			Console.WriteLine ("What is your name?");
 			var UserName = Console.ReadLine ();
 
+			Console.WriteLine ("What is your birthday?");
+			var userb = Console.ReadLine ();
+			DateTime userBday = Convert.ToDateTime(userb);
+			DateTime current = DateTime.Now;
+
+			TimeSpan finalCalc;
+
+			if (userBday > current) {
+				finalCalc = userBday - current;
+			} else {
+				finalCalc = current - userBday; 
+			}
+
+			int differenceInDays = finalCalc.Days;
+
 			foreach (char i in UserName)
 		   	{
 				if ("aeiou".Contains(i)) 
@@ -27,7 +42,8 @@ namespace cheersRedux
 
 			Console.Write(UserName);
 			Console.Write (" is FABULOUS!");
-				
+			Console.WriteLine ("  ");
+			Console.Write ("Your birthday is {0} days away", differenceInDays);	
 		}
 	}
 }
